@@ -1,0 +1,74 @@
+/* this is needed for the countdown to be displayed correctly */
+#countdown {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+    text-align: center;
+}
+
+/* styling to make it look fancy */
+body {
+    background-image: url("../imgs/background1.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center; 
+}
+
+/* nav bar style */
+nav {
+    background-color: #91bfe5;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.1s;
+}
+
+nav a:hover {
+    color:#ffffff;
+}
+
+/*txt shadow for the header (so minimal i might delete it cuz it adds so little but eh it looks fine) */
+h1, h2 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/*
+This was going to be a cool "breathing timer" but it never worked :(
+oh well.
+
+#timer {
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+} */
+ 
+/* simple footer stuff */
+footer {
+    background-color: #62a8e0;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    border-top: 2px solid #3f51b5;
+}
+
+ /* scrolling is smooth */
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
